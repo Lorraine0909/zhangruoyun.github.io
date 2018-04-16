@@ -1,0 +1,84 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+    padding: 0;
+    margin: 0;
+    border:2px solid black;
+    outline:2px solid red;
+    outline-offset:15px;
+}
+
+a {
+    text-decoration: blink;
+    color: #64bac5;
+    font-style:italic;
+    text-shadow: 5px 5px 5px rebeccapurple;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 5px 5px 5px pink;
+
+}
+h1:hover{
+    transform:rotate(180deg);
+}
+table{
+    text-align: center;
+    font-weight: bold;
+}
+table:hover{
+    transform:rotateY(130deg);
+}
+p{
+    text-indent: 20px;
+    transform:translate(50px,100px);
+    font-weight: bold;
+
+}
+    
+
+
+h3{
+    background-color: #f145cc;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    font-weight: bold;
+    padding-left:10px;
+    transition:height 10s; 
+    animation:myfirst 10s; 
+    box-shadow: 10px 10px 5px #888888;
+
+}
+h3:hover
+{
+    height:100px;
+}
+@keyframes myfirst
+{
+0%   {background:pink ;}
+25%  {background: #f145cc;}
+50%  {background:firebrick;}
+100% {background:purple;}
+
+}
+
+.dt {
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px palevioletred; 
+       
+}
+.dt:hover{
+    transform:rotate(180deg);
+    text-align: center;
+    
+}
+
+.container {
+    width: 800px;
+    height:1000px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 0;
+    background-image: url("bg.jpg")
+}
